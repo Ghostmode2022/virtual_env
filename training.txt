@@ -1,0 +1,13 @@
+virtualenv -p python ~/virtEnv1
+#the last argument is the the path where the virtual-enviornment is required to be installed.
+#it should also consists of the name of the virtual-enviornment
+#the above command is for creating a new virtual enviornment with the name and location in the last argument
+
+cd ~/virtEnv1
+#the above command takes us to the location of the virtual enviornment
+
+source bin/activate
+#to start the virtual enviornment 
+
+deactivate
+#to come out of the enviornment we need the above command
